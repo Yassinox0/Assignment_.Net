@@ -80,17 +80,16 @@ Run the following command to create a migration for your database schema:
   ```sh
   dotnet ef database update
 ## Part 4: Modifying the Layout of View Pages
-To customize the layout, update the _Layout.cshtml file in the Views/Shared folder. For example:
+- To customize the layout, update the _Layout.cshtml file in the Views/Shared folder. For example:
     ```sh
-
-      html
+    <html>
      <nav>
         <ul>
-         <li><a href="/">Home</a></li>
-         <li><a href="/Products">Products</a></li>
-       </ul>
-    </nav>
-  
+          <li><a href="/">Home</a></li>
+          <li><a href="/Products">Products</a></li>
+         </ul>
+     </nav>
+    </html>
 ## Part 5: Introducing Categories
 - Add a new entity Category:
    ```sh
